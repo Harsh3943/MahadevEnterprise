@@ -240,6 +240,7 @@
     <Content Include="docs\_includes\sidebar.html" />
     <Content Include="docs\_layouts\default.html" />
     <Content Include="docs\_layouts\page.html" />
+    <Content Include="Employee.aspx" />
     <Content Include="InvoiceGenerate.aspx" />
     <Content Include="Ordor.aspx" />
     <Content Include="pages\calendar.html" />
@@ -2176,6 +2177,13 @@
     <Compile Include="DATA\UnitMaster.cs">
       <DependentUpon>Mahadev.tt</DependentUpon>
     </Compile>
+    <Compile Include="Employee.aspx.cs">
+      <DependentUpon>Employee.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Employee.aspx.designer.cs">
+      <DependentUpon>Employee.aspx</DependentUpon>
+    </Compile>
     <Compile Include="InvoiceGenerate.aspx.cs">
       <DependentUpon>InvoiceGenerate.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -2191,6 +2199,7 @@
       <DependentUpon>MasterPage.Master</DependentUpon>
     </Compile>
     <Compile Include="Method\CategoryClass.cs" />
+    <Compile Include="Method\EmployeeClass.cs" />
     <Compile Include="Method\General.cs" />
     <Compile Include="Method\General_New.cs" />
     <Compile Include="Method\OrderClass.cs" />
