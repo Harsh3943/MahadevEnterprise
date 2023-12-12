@@ -242,6 +242,7 @@
     <Content Include="docs\_layouts\page.html" />
     <Content Include="Employee.aspx" />
     <Content Include="InvoiceGenerate.aspx" />
+    <Content Include="LoginMaster.aspx" />
     <Content Include="Ordor.aspx" />
     <Content Include="pages\calendar.html" />
     <Content Include="pages\charts\chartjs.html" />
@@ -2191,6 +2192,13 @@
     <Compile Include="InvoiceGenerate.aspx.designer.cs">
       <DependentUpon>InvoiceGenerate.aspx</DependentUpon>
     </Compile>
+    <Compile Include="LoginMaster.aspx.cs">
+      <DependentUpon>LoginMaster.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LoginMaster.aspx.designer.cs">
+      <DependentUpon>LoginMaster.aspx</DependentUpon>
+    </Compile>
     <Compile Include="MasterPage.Master.cs">
       <DependentUpon>MasterPage.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -2202,6 +2210,7 @@
     <Compile Include="Method\EmployeeClass.cs" />
     <Compile Include="Method\General.cs" />
     <Compile Include="Method\General_New.cs" />
+    <Compile Include="Method\LoginClass.cs" />
     <Compile Include="Method\OrderClass.cs" />
     <Compile Include="Method\ProductClass.cs" />
     <Compile Include="Method\StockClass.cs" />
