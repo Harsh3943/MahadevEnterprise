@@ -97,3 +97,4 @@
    at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
    at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
    at MahadevEnterprise.Method.General_New.GetDataTable(String storedProcedure, NameValueCollection nv) in D:\HARSH\.NET\MahadevEnterprise\MahadevEnterprise\Method\General_New.cs:line 225Error converting data type nvarchar to int. at 03-12-2023 03:14:20
+*****Error message=****Sql Error is=ExecuteNonQuery: CommandText property has not been initialized at 13-12-2023 01:28:04
