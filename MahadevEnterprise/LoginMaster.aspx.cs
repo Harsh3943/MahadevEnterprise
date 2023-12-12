@@ -24,11 +24,19 @@ namespace MahadevEnterprise
 
             dt = objl.GetLogin(txtUserName.Text, txtPassword.Text);
 
-            int Roleid = Convert.ToInt32(dt.Rows[0]["RoleId"]);
-
-            if(Roleid==1)
+            if (dt != null && dt.Rows.Count > 0)
             {
-                Response.Redirect("Category.aspx");
+
+                int Roleid = Convert.ToInt32(dt.Rows[0]["RoleId"]);
+
+                if (Roleid == 1)
+                {
+                    Response.Redirect("Category.aspx");
+                }
+            }
+            else
+            {
+                lblmessage.Text = "Username or Password Inccorect";
             }
         }
 
