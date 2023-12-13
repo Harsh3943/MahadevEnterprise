@@ -132,6 +132,12 @@ namespace MahadevEnterprise
         protected void GridOrdor_RowCommand(object sender, GridViewCommandEventArgs e)
         {
 
+
+
+
+
+
+
             if (e.CommandName == "CategoryEdit")
             {
                 OrderID= Convert.ToInt32(e.CommandArgument);
